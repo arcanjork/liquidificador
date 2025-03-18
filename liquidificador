@@ -1,0 +1,12 @@
+int pinoLed = 13; // change variable name to 'pinoLed' for consistency
+
+void setup() {
+    pinMode(pinoLed, OUTPUT); // set the pin as output
+}
+
+void loop() {
+    digitalWrite(pinoLed, HIGH); // turn the LED on
+    delay(50000); // wait for 50 seconds
+    digitalWrite(pinoLed, LOW); // turn the LED off
+    delay(5000); // wait for 5 seconds
+}
